@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+#wellcome{
+    display: block;
+    height: 600px;
+    background-image: url('../images/fundo-home-1.jpg');
+}
+
+#wellcome-content{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 50%;
+}
+
+#wellcome-content > h1, h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#wellcome-content > h1{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#wellcome-content > p{
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+.header{
+    background-color: white;
+}
+
+.nav-link {
+    font-size: 1.5em;
+    color: rgb(6, 11, 37);
+    padding: 10px 15px;
+    margin: 10px 0px;
+    border-radius: 15px;
+}
+
+.nav-link:hover {
+    color: rgb(133, 194, 252);
+    background-color: rgb(6, 11, 37);
+}
+
+#a-empresa{
+    margin: 50px 0px;
+}
+
+#a-empresa > div > p{
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+}
+
+#tecs{
+    background-color: rgb(241, 241, 241);
+    padding: 25px 0px;
+}
+
+.title-sections{
+    color: black !important;
+    text-align: center;
+    text-shadow: 3px 3px #ccc;
+    padding: 15px 0px;
+}
+
+#tecs div {
+    text-align: center;
+}
+
+#tecs i {
+    font-size: 50px;
+}
+
+#team{
+    padding: 25px 0px;
+}
+
+.integrantes {
+    margin: 25px;
+}
