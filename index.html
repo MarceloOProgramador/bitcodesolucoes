@@ -17,7 +17,7 @@
 
 <body>
 
-    <header class="header container-fluid">
+    <header class="header-intern container-fluid">
         <div class="row">
             <div class="logo col-2">
                 <picture>
@@ -77,7 +77,7 @@
         </div>
     </section>
 
-    <section class="container-fluid">
+    <section class="container-fluid bg-cinza">
         <div class="row" id="tecs">
 
             <div class="col-12">
@@ -131,7 +131,7 @@
                 <p>
                     Officia laboris sint voluptate ad irure enim ipsum veniam dolore laboris velit do culpa. Qui eu quis
                     sunt est dolore laborum cillum laboris ut veniam cupidatat eiusmod commodo. Aliquip nisi aliquip id
-                    duis mollit ea culpa. 
+                    duis mollit ea culpa.
                 </p>
             </div>
 
@@ -172,47 +172,71 @@
         </div>
     </section>
 
-    <section>
+    <section class="container-fluid bg-cinza">
         <div>
-            <h2>Depoimentos</h2>
+            <h2 class="title-sections">Depoimentos</h2>
         </div>
-        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
+
+        <div class="row">
+            <div class="col-8 offset-md-2">
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/depoimentos/1.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/depoimentos/2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/depoimentos/3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+        </div>
     </section>
 
-
-    <footer>
-        <section>
-            <nav>
-                <h2>Menu</h2>
+    <footer class="conteinar-fluid footer">
+        <section class="row">
+            <nav class="col-4 ">
+                <h2 class="title-rodape">Menu</h2>
+                <ul class="footer-nav">
+                    <li><a href="">Ínicio</a></li>
+                    <li><a href="">Quem somos</a></li>
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
             </nav>
-            <div>
-                <h2>Redes sociais</h2>
+            <div class="col-4">
+                <h2 class="title-rodape">Redes sociais</h2>
+                <ul class="icon-list">
+                    <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                    <li><a href=""><i class="bi bi-linkedin"></i></a></li>
+                    <li><a href=""><i class="bi bi-instagram"></i></a></li>
+                </ul>
             </div>
-            <div>
-                <h2>Contatos</h2>
+            <div class="col-4">
+                <div class="row">
+                    <h2 class="title-rodape">Contatos</h2>
+                    <ul class="footer-contact">
+                        <li><a href="email:contato@bicode.com.br"><i class="bi bi-envelope-open-fill"></i> contato@bitcode.com.br </a></li>
+                        <li><a href="tel:12996040508"><i class="bi bi-telephone-fill"></i> (12) 996040508</a></li>
+                        <li><i class="bi bi-house-fill"></i> Rua Antonio andorinhas, Nº 263</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <h2 class="title-rodape">Horario de funcionmento</h2>
+                    <ul class="footer-funcionamento">
+                        <li>Abertura: 09:00</li>
+                        <li>Fechamento: 18:00</li>
+                    </ul>
+                </div>
+
             </div>
         </section>
-        <section>Copy Right</section>
+        <section class="row">
+            <p class="copyright">Todos os direitos reservados &copy; 2022 - <a href="#">BIT CODE SOLUÇÕES</a></p>
+        </section>
     </footer>
 
     <!-- JavaScript Bundle with Popper -->

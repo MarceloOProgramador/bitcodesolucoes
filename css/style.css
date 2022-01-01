@@ -36,9 +36,21 @@
     background-color: white;
 }
 
+.header-intern{
+    background-color: rgb(6, 11, 37);
+}
+
 .nav-link {
     font-size: 1.5em;
     color: rgb(6, 11, 37);
+    padding: 10px 15px;
+    margin: 10px 0px;
+    border-radius: 15px;
+}
+
+.link-intern {
+    font-size: 1.5em;
+    color: #ccc;
     padding: 10px 15px;
     margin: 10px 0px;
     border-radius: 15px;
@@ -49,6 +61,12 @@
     background-color: rgb(6, 11, 37);
 }
 
+.link-intern:hover {
+    color: rgb(6, 11, 37);
+    background-color: rgb(133, 194, 252);
+}
+
+
 #a-empresa{
     margin: 50px 0px;
 }
@@ -58,8 +76,11 @@
     font-family: 'Merriweather', serif;
 }
 
+.bg-cinza{
+    background-color: #f1f1f1;
+}
+
 #tecs{
-    background-color: rgb(241, 241, 241);
     padding: 25px 0px;
 }
 
@@ -84,4 +105,80 @@
 
 .integrantes {
     margin: 25px;
+}
+
+.title-rodape {
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+.footer{
+    background-color: rgb(6, 11, 37);
+    text-align: center;
+    padding: 25px 10px;
+}
+
+.footer-nav, .icon-list, .footer-contact, .footer-funcionamento {
+    list-style: none;
+    padding: 0px;
+}
+
+.footer-nav > li > a, .footer-contact > li, .footer-funcionamento > li, .copyright{
+    font-style: none;
+    color: #ccc;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.footer-nav > li > a:hover {
+    text-decoration: underline;
+}
+
+.icon-list > li{
+    display: inline;
+    padding: 0px 10px;
+    font-size: 1.5em;
+}
+
+.icon-list > li > a, .footer-contact > li >a, .copyright > a{
+    color: #ccc;
+}
+
+.icon-list > li > a:hover{
+    color: rgb(41, 68, 204);
+}
+
+.title-about{
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.about-section{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 3px 3px #ccc;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.title-h2-about{
+    color: rgb(6, 11, 37);
+    text-align: center;
+    font-size: 50px;
+}
+
+.about-p {
+    text-align: justify;
+    padding: 25px;
+}
+
+.about-content{
+    padding-top: 25px; 
+    padding-bottom: 25px; 
 }
