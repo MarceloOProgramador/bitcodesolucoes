@@ -27,32 +27,71 @@
             <nav class="col-10">
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a class="nav-link link-intern active" aria-current="page" href="#">Ínicio</a>
+                        <a class="nav-link link-intern active" aria-current="page" href="index.html">Ínicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link-intern" href="#">Quem somos</a>
+                        <a class="nav-link link-intern" href="quem-somos.html">Quem somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link-intern" href="#">Serviços</a>
+                        <a class="nav-link link-intern" href="servicos.html">Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link-intern" href="#">Contato</a>
+                        <a class="nav-link link-intern" href="contato.html">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="container">
+    <section class="container mb-4 mt-4">
         <div class="row">
-            <h1 class="col-12">
-                Contato
-            </h1>
-        </div>
-        <div class="row">
-            <form action="" class="form col-6 offset-md-3">
+            <fieldset class="form-contact">
+                <legend>Contato</legend>
+                <form action="#" method="post" class="form col-6 offset-md-3">
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-2">
+                            <label for="nome" class="col-form-label">Nome</label>
+                        </div>
+                        <div class="col-md-10">
+                            <input type="text" id="nome" class="form-control">
+                        </div>
+                    </div>
 
-            </form>
+                    <div class="row g-3 mb-3 align-items-center">
+                        <div class="col-md-2">
+                            <label class="col-form-label" for="email">Email</label>
+                        </div>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="email">
+                        </div>
+                    </div>
+
+                    <div class="row g-3 mb-3 align-items-center">
+                        <div class="col-md-2">
+                            <label for="telefone" class="col-form-label">Telefone</label>
+                        </div>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="telefone">
+                        </div>
+                    </div>
+
+                    <div class="row g-3 mb-3 align-items-center">
+                        <div class="col-md-2">
+                            <label for="observacoes" class="col-form-label">Observações</label>
+                        </div>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="observacoes"></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="row g-3 mb-3 align-items-center">
+                        <div class="text-end">
+                            <button class="btn btn-primary">Enviar</button>
+                        </div>
+                    </div>
+                    
+                </form>
+            </fieldset>
         </div>
     </section>
 
@@ -61,10 +100,10 @@
             <nav class="col-4 ">
                 <h2 class="title-rodape">Menu</h2>
                 <ul class="footer-nav">
-                    <li><a href="">Ínicio</a></li>
-                    <li><a href="">Quem somos</a></li>
-                    <li><a href="">Serviços</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a href="index.html">Ínicio</a></li>
+                    <li><a href="quem-somos.html">Quem somos</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contato.html">Contato</a></li>
                 </ul>
             </nav>
             <div class="col-4">
@@ -79,7 +118,8 @@
                 <div class="row">
                     <h2 class="title-rodape">Contatos</h2>
                     <ul class="footer-contact">
-                        <li><a href="email:contato@bicode.com.br"><i class="bi bi-envelope-open-fill"></i> contato@bitcode.com.br </a></li>
+                        <li><a href="email:contato@bicode.com.br"><i class="bi bi-envelope-open-fill"></i>
+                                contato@bitcode.com.br </a></li>
                         <li><a href="tel:12996040508"><i class="bi bi-telephone-fill"></i> (12) 996040508</a></li>
                         <li><i class="bi bi-house-fill"></i> Rua Antonio andorinhas, Nº 263</li>
                     </ul>
@@ -104,5 +144,4 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 </body>
-
 </html>
